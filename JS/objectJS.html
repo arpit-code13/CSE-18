@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //
+
+
+
+        let myInfo={
+            name:"Arpit maurya",
+            age:19,
+            isMarried:false,
+            address:{
+                streetno:5,
+                area:"bhagwanpur",
+                pincode:334232,
+                city:"UP",
+
+            },
+            course:"B-tech",
+            branch:"Cse",
+            year:2026,
+            // education:function(){
+            //     console.log("my education is "+course +
+            //     branch "and ")
+            // }
+
+        }
+        // console.log(myInfo.education);
+        console.log(myInfo.address.city);
+        console.log(myInfo["name"]);
+        console.log(myInfo.address.pincode);
+        console.log(myInfo.address.pincode);
+        console.log(myInfo["isMarried"]);
+        console.log(myInfo.isMarried);
+        
+
+
+
+        //1st way  to find length 
+        let name="arpit maurya ".length;
+        console.log(name);
+
+        //second way to find length 
+    
+        let keys=Object.keys(myInfo);
+        console.log(keys.length);
+
+
+        //delete object property
+        console.log(delete myInfo.name );
+        console.log(myInfo);
+
+        //print object property
+
+        for(let i= 0; i<keys.length;i++){
+            console.log("Object keys are "+myInfo[keys[i]]);
+        }
+     
+
+        //print objects property using for in loop
+
+        for (let x in myInfo){
+            console.log(myInfo[x]);
+        }
+  
+
+        //create object 
+
+        let student = object;
+        student:name="arpit"
+        student:
+        student:
+        student:
+        student:
+        student:
+    
+
+
+
+    </script>
+</body>
+</html>
